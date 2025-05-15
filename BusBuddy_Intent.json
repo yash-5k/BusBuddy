@@ -1,0 +1,127 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey there",
+                "Hola",
+                "Ssup",
+                "Hey",
+                "Heyyy",
+                "Hellooo",
+                "Good morning",
+                "Good evening"
+            ],
+            "responses": [
+                "Hello! How can I help you?",
+                "Hi there! Need assistance with bus routes?",
+                "Welcome to Bus Buddy, Vishishta Syed n Geethika hope u enjoy this"
+            ],
+            "context": [
+                ""
+            ]
+        },
+            {
+                "tag": "fare",
+                "patterns": [
+                "fare to go from X to Y",
+                "what is the fare from X to Y",
+                "how much is the fare from X to Y",
+                "can you tell me the fare from X to Y",
+                "I need the fare to go from X to Y",
+                "price from X to Y",
+                "ticket cost from X to Y"
+                ],
+                "responses": [
+                "Let me check the fare for you...",
+                "Sure, I’ll find the fare for your journey!",
+                "Checking the ticket price...",
+                "I'll calculate the fare for you in a moment."
+                ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "lost_item",
+            "patterns": [
+                "I lost something on the bus",
+                "What to do if I forget my belongings?",
+                "How can I retrieve a lost item?"
+            ],
+            "responses": [
+                "Please contact the support team with details about the lost item and the bus route.",
+                "I'll get u the contact details. Make sure u dont loose it next time"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "route_availability",
+            "patterns": [
+                "what is the bus number to go from x to y",
+                "Which bus goes from x to y",
+                "which bus should i take to go from x to y"
+            ],
+            "responses": [
+                "Please contact the support team with details about the lost item and the bus route.",
+                "I'll get u the contact details. Make sure u dont loose it next time"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "student_discount",
+            "patterns": [
+                "Is there a student discount?",
+                "Do students get a fare reduction?",
+                "How to avail student discount?"
+            ],
+            "responses": [
+                "Yes, students can get a discount by showing a valid ID. Ask the conductor or ticket counter.",
+                "There are no such discounts. But u can make a student bus pass and travel hussle free!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "complaints",
+            "patterns": [
+                "Where can I file a complaint?",
+                "I want to report an issue",
+                "How to submit feedback?"
+            ],
+            "responses": [
+                "You can file a complaint through the app or by calling our support number."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Much appreciated",
+                "Cheers"
+            ],
+            "responses": [
+                "You're welcome!",
+                "Glad I could help!",
+                "My pleasure",
+                "Thats what Bus Buddy is for !",
+                "Buddies for a reason"
+            ],
+            "context": [
+                ""
+            ]
+        }
+    ]
+}
